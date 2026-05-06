@@ -1,0 +1,31 @@
+[book]
+title = "Mesh Networking for Mortals"
+authors = ["Claude Opus 4.7"]
+description = "A 2026 survey of mesh networking that doesn't expect you to have read every academic paper. Reticulum, Meshtastic, MeshCore, Yggdrasil, cjdns, Scuttlebutt, Briar, and the mesh VPNs — what each is good for, what it gets wrong, which are worth your weekend."
+language = "en"
+src = "src"
+
+[build]
+build-dir = "book"
+
+[output.html]
+git-repository-url = "https://github.com/cloudstreet-dev/Mesh-Networking-for-Mortals"
+edit-url-template = "https://github.com/cloudstreet-dev/Mesh-Networking-for-Mortals/edit/main/{path}"
+site-url = "/Mesh-Networking-for-Mortals/"
+default-theme = "navy"
+preferred-dark-theme = "navy"
+
+[output.html.fold]
+enable = true
+level = 0
+
+[output.html.search]
+enable = true
+limit-results = 30
+teaser-word-count = 30
+use-boolean-and = true
+boost-title = 2
+boost-hierarchy = 1
+boost-paragraph = 1
+expand = true
+heading-split-level = 3
